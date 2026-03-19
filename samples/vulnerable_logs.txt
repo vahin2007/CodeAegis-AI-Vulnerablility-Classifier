@@ -1,0 +1,7 @@
+[bandit] Issue: [B602:subprocess_popen_with_shell_equals_true] subprocess call with shell=True identified, possible injection (CWE-78)
+AddressSanitizer: heap-use-after-free on address 0x7c842363 in thread T0
+Buffer overflow in network-facing authentication handler: strcpy(dest, user_input)
+./projects/crypto_service/src/database.c:94: [4] (sql) SQL injection risk if user input not sanitized (CWE-89)
+Code injection: eval() executes string from Cookie values
+[sonarqube] java:S2245: Using pseudorandom number generators (PRNGs) is security-sensitive at In file 'data_processor/server.js' at line 597
+runtime error: signed integer overflow: 1291861681 + 1970779858 cannot be represented in type 'int'

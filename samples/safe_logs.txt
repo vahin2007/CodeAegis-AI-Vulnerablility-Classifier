@@ -1,0 +1,7 @@
+[STATIC CHECK] Null pointer check failed at parser.c:450 - prevented dereference
+"Buffer overflow: strcpy(buffer, input) [Stack canary enabled, ASLR active, input length validated]"
+[bandit] B602 shell=True - SAFE: No user input involved, running internal maintenance script
+FATAL: Assertion 'index < array_size' failed in file processor.c, line 116. Aborting.
+[DOCS] Example of SQL injection vulnerability for training purposes (CWE-89)
+[WAF PROTECTED] SQL injection blocked at application firewall
+[bandit] HISTORICAL: security: Use of 'pickle' was insecure (B403) - now using JSON serialization

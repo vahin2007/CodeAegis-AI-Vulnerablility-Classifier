@@ -1,0 +1,16 @@
+error_log,label,category,cwe,severity,explanation,reason,attack_surface,error_type,mitigations
+"Buffer overflow: strcpy(dest, Cookie values) without bounds checking",1,trust_boundary,CWE-120,5,"Client-side storage, user-controlled",,,,
+ASSERT FAILED: buffer_size > 0 at validator.c:315,0,assertion_runtime_check_safe,N/A,0,,,,,
+[bandit] Issue: [B303:insecure_hash_function] Use of insecure MD5 hash function (CWE-327),1,bandit_vulnerabilities,CWE-327,5,,,,,
+SQL injection in internal analytics dashboard (authenticated admin users only, read-only DB connection),0,exploitability_context,N/A,0,,"Authenticated users, read-only access, limited impact",,,
+Process spawn with seccomp filter - limited system calls,0,false_positive_safe,N/A,0,,,,,
+Code injection: eval() executes string from Admin-set preferences,0,trust_boundary,CWE-120,0,Administrator configuration,,,,
+Path traversal in file download endpoint (authenticated API),1,attack_surface,CWE-120,5,,,Authenticated but still exploitable,,
+"Command execution with user input [Sandboxed environment, no network access, seccomp filter active]",0,mitigation_context,CWE-120,0,,,,,Sandboxing + network isolation + seccomp
+SQL injection vulnerability: query uses unsanitized user input,1,severity_classification,CWE-120,5,,,,Injection vulnerability - exploitable,
+./main.c:89: Memory copy operation verified,0,adversarial_safe,N/A,0,,,,,
+AddressSanitizer: heap-use-after-free on address 0x7c842363,1,cross_tool_use_after_free,CWE-416,5,,,,,
+[cppcheck] Static analysis passed,0,no_flaws,N/A,0,,,,,
+[bandit] PATCHED: CWE-78 vulnerability in auth_server/main.c,0,ultra_confusing_resolved,N/A,0,,,,,
+Buffer capacity insufficient for write operation,1,semantic_buffer_overflow,CWE-120,5,,,,,
+SQL injection: query concatenates Environment variables into WHERE clause,0,trust_boundary,CWE-120,0,Set by administrator,,,,
