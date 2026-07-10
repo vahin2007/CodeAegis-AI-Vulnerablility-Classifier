@@ -330,7 +330,7 @@ This intelligently reduces alert fatigue without retraining.
 
 **[Your Name]**  
 B.Tech — Artificial Intelligence & Data Science, Year 3  
-[LinkedIn](https://linkedin.com/in/yourprofile) • [GitHub](https://github.com/yourusername) • [Email](mailto:you@example.com)
+[LinkedIn](https://linkedin.com/in/vahin-reddy-sathu) • [GitHub](https://github.com/vahin2007) • [Email](vahinsathu@gmail.com)
 
 ---
 
